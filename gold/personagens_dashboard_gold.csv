@@ -1,0 +1,13 @@
+nome_personagem,altura_cm,massa_kg,genero,planeta_natal,especie,qtd_filmes,qtd_naves_distintas,unidades_vendidas_total,receita_total_reais
+Boba Fett,183,78.2,male,Kamino,N/I,3,1,143,1344.74
+Han Solo,180,80.0,male,Corellia,N/I,3,2,110,1943.07
+Palpatine,170,75.0,male,Naboo,N/I,5,0,34,4247.82
+C-3PO,167,75.0,,Tatooine,Droid,6,0,25,1857.37
+Leia Organa,150,49.0,female,Alderaan,N/I,4,0,131,5472.27
+R2-D2,96,32.0,,Naboo,Droid,6,0,26,900.74
+Chewbacca,228,112.0,male,Kashyyyk,Wookie,4,2,106,1757.12
+Obi-Wan Kenobi,182,77.0,male,Stewjon,N/I,6,5,136,1554.98
+Lando Calrissian,177,79.0,male,Socorro,N/I,2,1,94,4832.85
+Luke Skywalker,172,77.0,male,Tatooine,N/I,4,2,366,5828.299999999999
+Yoda,66,17.0,male,unknown,Yoda's species,5,0,181,4827.73
+Darth Vader,202,136.0,male,Tatooine,N/I,4,1,200,3550.79
