@@ -73,6 +73,9 @@ def normalize_money(value):
     # remove espaços internos
     s = s.replace(" ", "")
 
+    # remove hifen -
+    s = s.replace("-", "")
+
     # se tiver vírgula e não tiver ponto -> vírgula é decimal
     if "," in s and "." not in s:
         s = s.replace(",", ".")
@@ -86,7 +89,7 @@ def normalize_money(value):
     try:
         return float(s)
     except ValueError:
-        # em caso de erro, retorna 0.0 (decisão explícita)
+        # em caso de erro, retorna 0.0 para tornar padrão
         return 0.0
 
 
@@ -98,7 +101,7 @@ MESES = {
     "fevereiro": "02", "fev": "02",
     "março": "03", "mar": "03",
     "abril": "04", "abr": "04",
-    "maio": "05",
+    "maio": "05", "mai": "05",
     "junho": "06", "jun": "06",
     "julho": "07", "jul": "07",
     "agosto": "08", "ago": "08",

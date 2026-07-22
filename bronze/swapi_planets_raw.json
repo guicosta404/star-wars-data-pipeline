@@ -1,0 +1,211 @@
+{
+  "https://swapi.dev/api/planets/10/": {
+    "name": "Kamino",
+    "rotation_period": "27",
+    "orbital_period": "463",
+    "diameter": "19720",
+    "climate": "temperate",
+    "gravity": "1 standard",
+    "terrain": "ocean",
+    "surface_water": "100",
+    "population": "1000000000",
+    "residents": [
+      "https://swapi.dev/api/people/22/",
+      "https://swapi.dev/api/people/72/",
+      "https://swapi.dev/api/people/73/"
+    ],
+    "films": [
+      "https://swapi.dev/api/films/5/"
+    ],
+    "created": "2014-12-10T12:45:06.577000Z",
+    "edited": "2014-12-20T20:58:18.434000Z",
+    "url": "https://swapi.dev/api/planets/10/"
+  },
+  "https://swapi.dev/api/planets/22/": {
+    "name": "Corellia",
+    "rotation_period": "25",
+    "orbital_period": "329",
+    "diameter": "11000",
+    "climate": "temperate",
+    "gravity": "1 standard",
+    "terrain": "plains, urban, hills, forests",
+    "surface_water": "70",
+    "population": "3000000000",
+    "residents": [
+      "https://swapi.dev/api/people/14/",
+      "https://swapi.dev/api/people/18/"
+    ],
+    "films": [],
+    "created": "2014-12-10T16:49:12.453000Z",
+    "edited": "2014-12-20T20:58:18.456000Z",
+    "url": "https://swapi.dev/api/planets/22/"
+  },
+  "https://swapi.dev/api/planets/8/": {
+    "name": "Naboo",
+    "rotation_period": "26",
+    "orbital_period": "312",
+    "diameter": "12120",
+    "climate": "temperate",
+    "gravity": "1 standard",
+    "terrain": "grassy hills, swamps, forests, mountains",
+    "surface_water": "12",
+    "population": "4500000000",
+    "residents": [
+      "https://swapi.dev/api/people/3/",
+      "https://swapi.dev/api/people/21/",
+      "https://swapi.dev/api/people/35/",
+      "https://swapi.dev/api/people/36/",
+      "https://swapi.dev/api/people/37/",
+      "https://swapi.dev/api/people/38/",
+      "https://swapi.dev/api/people/39/",
+      "https://swapi.dev/api/people/42/",
+      "https://swapi.dev/api/people/60/",
+      "https://swapi.dev/api/people/61/",
+      "https://swapi.dev/api/people/66/"
+    ],
+    "films": [
+      "https://swapi.dev/api/films/3/",
+      "https://swapi.dev/api/films/4/",
+      "https://swapi.dev/api/films/5/",
+      "https://swapi.dev/api/films/6/"
+    ],
+    "created": "2014-12-10T11:52:31.066000Z",
+    "edited": "2014-12-20T20:58:18.430000Z",
+    "url": "https://swapi.dev/api/planets/8/"
+  },
+  "https://swapi.dev/api/planets/1/": {
+    "name": "Tatooine",
+    "rotation_period": "23",
+    "orbital_period": "304",
+    "diameter": "10465",
+    "climate": "arid",
+    "gravity": "1 standard",
+    "terrain": "desert",
+    "surface_water": "1",
+    "population": "200000",
+    "residents": [
+      "https://swapi.dev/api/people/1/",
+      "https://swapi.dev/api/people/2/",
+      "https://swapi.dev/api/people/4/",
+      "https://swapi.dev/api/people/6/",
+      "https://swapi.dev/api/people/7/",
+      "https://swapi.dev/api/people/8/",
+      "https://swapi.dev/api/people/9/",
+      "https://swapi.dev/api/people/11/",
+      "https://swapi.dev/api/people/43/",
+      "https://swapi.dev/api/people/62/"
+    ],
+    "films": [
+      "https://swapi.dev/api/films/1/",
+      "https://swapi.dev/api/films/3/",
+      "https://swapi.dev/api/films/4/",
+      "https://swapi.dev/api/films/5/",
+      "https://swapi.dev/api/films/6/"
+    ],
+    "created": "2014-12-09T13:50:49.641000Z",
+    "edited": "2014-12-20T20:58:18.411000Z",
+    "url": "https://swapi.dev/api/planets/1/"
+  },
+  "https://swapi.dev/api/planets/2/": {
+    "name": "Alderaan",
+    "rotation_period": "24",
+    "orbital_period": "364",
+    "diameter": "12500",
+    "climate": "temperate",
+    "gravity": "1 standard",
+    "terrain": "grasslands, mountains",
+    "surface_water": "40",
+    "population": "2000000000",
+    "residents": [
+      "https://swapi.dev/api/people/5/",
+      "https://swapi.dev/api/people/68/",
+      "https://swapi.dev/api/people/81/"
+    ],
+    "films": [
+      "https://swapi.dev/api/films/1/",
+      "https://swapi.dev/api/films/6/"
+    ],
+    "created": "2014-12-10T11:35:48.479000Z",
+    "edited": "2014-12-20T20:58:18.420000Z",
+    "url": "https://swapi.dev/api/planets/2/"
+  },
+  "https://swapi.dev/api/planets/14/": {
+    "name": "Kashyyyk",
+    "rotation_period": "26",
+    "orbital_period": "381",
+    "diameter": "12765",
+    "climate": "tropical",
+    "gravity": "1 standard",
+    "terrain": "jungle, forests, lakes, rivers",
+    "surface_water": "60",
+    "population": "45000000",
+    "residents": [
+      "https://swapi.dev/api/people/13/",
+      "https://swapi.dev/api/people/80/"
+    ],
+    "films": [
+      "https://swapi.dev/api/films/6/"
+    ],
+    "created": "2014-12-10T13:32:00.124000Z",
+    "edited": "2014-12-20T20:58:18.442000Z",
+    "url": "https://swapi.dev/api/planets/14/"
+  },
+  "https://swapi.dev/api/planets/20/": {
+    "name": "Stewjon",
+    "rotation_period": "unknown",
+    "orbital_period": "unknown",
+    "diameter": "0",
+    "climate": "temperate",
+    "gravity": "1 standard",
+    "terrain": "grass",
+    "surface_water": "unknown",
+    "population": "unknown",
+    "residents": [
+      "https://swapi.dev/api/people/10/"
+    ],
+    "films": [],
+    "created": "2014-12-10T16:16:26.566000Z",
+    "edited": "2014-12-20T20:58:18.452000Z",
+    "url": "https://swapi.dev/api/planets/20/"
+  },
+  "https://swapi.dev/api/planets/30/": {
+    "name": "Socorro",
+    "rotation_period": "20",
+    "orbital_period": "326",
+    "diameter": "0",
+    "climate": "arid",
+    "gravity": "1 standard",
+    "terrain": "deserts, mountains",
+    "surface_water": "unknown",
+    "population": "300000000",
+    "residents": [
+      "https://swapi.dev/api/people/25/"
+    ],
+    "films": [],
+    "created": "2014-12-15T12:56:31.121000Z",
+    "edited": "2014-12-20T20:58:18.469000Z",
+    "url": "https://swapi.dev/api/planets/30/"
+  },
+  "https://swapi.dev/api/planets/28/": {
+    "name": "unknown",
+    "rotation_period": "0",
+    "orbital_period": "0",
+    "diameter": "0",
+    "climate": "unknown",
+    "gravity": "unknown",
+    "terrain": "unknown",
+    "surface_water": "unknown",
+    "population": "unknown",
+    "residents": [
+      "https://swapi.dev/api/people/20/",
+      "https://swapi.dev/api/people/23/",
+      "https://swapi.dev/api/people/29/",
+      "https://swapi.dev/api/people/32/",
+      "https://swapi.dev/api/people/75/"
+    ],
+    "films": [],
+    "created": "2014-12-15T12:25:59.569000Z",
+    "edited": "2014-12-20T20:58:18.466000Z",
+    "url": "https://swapi.dev/api/planets/28/"
+  }
+}

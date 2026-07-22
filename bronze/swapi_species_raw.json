@@ -1,0 +1,81 @@
+{
+  "https://swapi.dev/api/species/2/": {
+    "name": "Droid",
+    "classification": "artificial",
+    "designation": "sentient",
+    "average_height": "n/a",
+    "skin_colors": "n/a",
+    "hair_colors": "n/a",
+    "eye_colors": "n/a",
+    "average_lifespan": "indefinite",
+    "homeworld": null,
+    "language": "n/a",
+    "people": [
+      "https://swapi.dev/api/people/2/",
+      "https://swapi.dev/api/people/3/",
+      "https://swapi.dev/api/people/8/",
+      "https://swapi.dev/api/people/23/"
+    ],
+    "films": [
+      "https://swapi.dev/api/films/1/",
+      "https://swapi.dev/api/films/2/",
+      "https://swapi.dev/api/films/3/",
+      "https://swapi.dev/api/films/4/",
+      "https://swapi.dev/api/films/5/",
+      "https://swapi.dev/api/films/6/"
+    ],
+    "created": "2014-12-10T15:16:16.259000Z",
+    "edited": "2014-12-20T21:36:42.139000Z",
+    "url": "https://swapi.dev/api/species/2/"
+  },
+  "https://swapi.dev/api/species/3/": {
+    "name": "Wookie",
+    "classification": "mammal",
+    "designation": "sentient",
+    "average_height": "210",
+    "skin_colors": "gray",
+    "hair_colors": "black, brown",
+    "eye_colors": "blue, green, yellow, brown, golden, red",
+    "average_lifespan": "400",
+    "homeworld": "https://swapi.dev/api/planets/14/",
+    "language": "Shyriiwook",
+    "people": [
+      "https://swapi.dev/api/people/13/",
+      "https://swapi.dev/api/people/80/"
+    ],
+    "films": [
+      "https://swapi.dev/api/films/1/",
+      "https://swapi.dev/api/films/2/",
+      "https://swapi.dev/api/films/3/",
+      "https://swapi.dev/api/films/6/"
+    ],
+    "created": "2014-12-10T16:44:31.486000Z",
+    "edited": "2014-12-20T21:36:42.142000Z",
+    "url": "https://swapi.dev/api/species/3/"
+  },
+  "https://swapi.dev/api/species/6/": {
+    "name": "Yoda's species",
+    "classification": "mammal",
+    "designation": "sentient",
+    "average_height": "66",
+    "skin_colors": "green, yellow",
+    "hair_colors": "brown, white",
+    "eye_colors": "brown, green, yellow",
+    "average_lifespan": "900",
+    "homeworld": "https://swapi.dev/api/planets/28/",
+    "language": "Galactic basic",
+    "people": [
+      "https://swapi.dev/api/people/20/"
+    ],
+    "films": [
+      "https://swapi.dev/api/films/2/",
+      "https://swapi.dev/api/films/3/",
+      "https://swapi.dev/api/films/4/",
+      "https://swapi.dev/api/films/5/",
+      "https://swapi.dev/api/films/6/"
+    ],
+    "created": "2014-12-15T12:27:22.877000Z",
+    "edited": "2014-12-20T21:36:42.148000Z",
+    "url": "https://swapi.dev/api/species/6/"
+  }
+}

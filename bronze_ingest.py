@@ -75,7 +75,7 @@ def fetch_swapi_people_by_name(name: str):
     Usa o endpoint de busca da SWAPI:
     https://swapi.dev/api/people/?search=<nome>
 
-    Retorna o JSON da resposta.
+    Retorna o json da resposta.
     """
     url = f"{SWAPI_BASE}/people/?search={name}"
     resp = requests.get(url, timeout=10)
@@ -118,14 +118,17 @@ def ingest_swapi():
     species_data = {}
     films_data = {}
     starships_data = {}
+    now = datetime.utcnow().isoformat()
 
     for nome in nomes_unicos:
         result = fetch_swapi_people_by_name(nome)
 
-        # guarda a resposta crua, junto com o nome original e normalizado
+        # guarda a resposta crua, junto com o nome original e normalizado e metadados de hora e ingestão
         people_data.append({
             "original_name": nome,
             "normalized_search_name": normalize_name(nome),
+            "ingestion_timestamp": now,
+            "source": f"https://swapi.dev/api/people/?search={nome}",
             "response": result,
         })
 

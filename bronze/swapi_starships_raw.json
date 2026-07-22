@@ -1,0 +1,262 @@
+{
+  "https://swapi.dev/api/starships/21/": {
+    "name": "Slave 1",
+    "model": "Firespray-31-class patrol and attack",
+    "manufacturer": "Kuat Systems Engineering",
+    "cost_in_credits": "unknown",
+    "length": "21.5",
+    "max_atmosphering_speed": "1000",
+    "crew": "1",
+    "passengers": "6",
+    "cargo_capacity": "70000",
+    "consumables": "1 month",
+    "hyperdrive_rating": "3.0",
+    "MGLT": "70",
+    "starship_class": "Patrol craft",
+    "pilots": [
+      "https://swapi.dev/api/people/22/"
+    ],
+    "films": [
+      "https://swapi.dev/api/films/2/",
+      "https://swapi.dev/api/films/5/"
+    ],
+    "created": "2014-12-15T13:00:56.332000Z",
+    "edited": "2014-12-20T21:23:49.897000Z",
+    "url": "https://swapi.dev/api/starships/21/"
+  },
+  "https://swapi.dev/api/starships/10/": {
+    "name": "Millennium Falcon",
+    "model": "YT-1300 light freighter",
+    "manufacturer": "Corellian Engineering Corporation",
+    "cost_in_credits": "100000",
+    "length": "34.37",
+    "max_atmosphering_speed": "1050",
+    "crew": "4",
+    "passengers": "6",
+    "cargo_capacity": "100000",
+    "consumables": "2 months",
+    "hyperdrive_rating": "0.5",
+    "MGLT": "75",
+    "starship_class": "Light freighter",
+    "pilots": [
+      "https://swapi.dev/api/people/13/",
+      "https://swapi.dev/api/people/14/",
+      "https://swapi.dev/api/people/25/",
+      "https://swapi.dev/api/people/31/"
+    ],
+    "films": [
+      "https://swapi.dev/api/films/1/",
+      "https://swapi.dev/api/films/2/",
+      "https://swapi.dev/api/films/3/"
+    ],
+    "created": "2014-12-10T16:59:45.094000Z",
+    "edited": "2014-12-20T21:23:49.880000Z",
+    "url": "https://swapi.dev/api/starships/10/"
+  },
+  "https://swapi.dev/api/starships/22/": {
+    "name": "Imperial shuttle",
+    "model": "Lambda-class T-4a shuttle",
+    "manufacturer": "Sienar Fleet Systems",
+    "cost_in_credits": "240000",
+    "length": "20",
+    "max_atmosphering_speed": "850",
+    "crew": "6",
+    "passengers": "20",
+    "cargo_capacity": "80000",
+    "consumables": "2 months",
+    "hyperdrive_rating": "1.0",
+    "MGLT": "50",
+    "starship_class": "Armed government transport",
+    "pilots": [
+      "https://swapi.dev/api/people/1/",
+      "https://swapi.dev/api/people/13/",
+      "https://swapi.dev/api/people/14/"
+    ],
+    "films": [
+      "https://swapi.dev/api/films/2/",
+      "https://swapi.dev/api/films/3/"
+    ],
+    "created": "2014-12-15T13:04:47.235000Z",
+    "edited": "2014-12-20T21:23:49.900000Z",
+    "url": "https://swapi.dev/api/starships/22/"
+  },
+  "https://swapi.dev/api/starships/48/": {
+    "name": "Jedi starfighter",
+    "model": "Delta-7 Aethersprite-class interceptor",
+    "manufacturer": "Kuat Systems Engineering",
+    "cost_in_credits": "180000",
+    "length": "8",
+    "max_atmosphering_speed": "1150",
+    "crew": "1",
+    "passengers": "0",
+    "cargo_capacity": "60",
+    "consumables": "7 days",
+    "hyperdrive_rating": "1.0",
+    "MGLT": "unknown",
+    "starship_class": "Starfighter",
+    "pilots": [
+      "https://swapi.dev/api/people/10/",
+      "https://swapi.dev/api/people/58/"
+    ],
+    "films": [
+      "https://swapi.dev/api/films/5/",
+      "https://swapi.dev/api/films/6/"
+    ],
+    "created": "2014-12-20T17:35:23.906000Z",
+    "edited": "2014-12-20T21:23:49.930000Z",
+    "url": "https://swapi.dev/api/starships/48/"
+  },
+  "https://swapi.dev/api/starships/59/": {
+    "name": "Trade Federation cruiser",
+    "model": "Providence-class carrier/destroyer",
+    "manufacturer": "Rendili StarDrive, Free Dac Volunteers Engineering corps.",
+    "cost_in_credits": "125000000",
+    "length": "1088",
+    "max_atmosphering_speed": "1050",
+    "crew": "600",
+    "passengers": "48247",
+    "cargo_capacity": "50000000",
+    "consumables": "4 years",
+    "hyperdrive_rating": "1.5",
+    "MGLT": "unknown",
+    "starship_class": "capital ship",
+    "pilots": [
+      "https://swapi.dev/api/people/10/",
+      "https://swapi.dev/api/people/11/"
+    ],
+    "films": [
+      "https://swapi.dev/api/films/6/"
+    ],
+    "created": "2014-12-20T19:40:21.902000Z",
+    "edited": "2014-12-20T21:23:49.941000Z",
+    "url": "https://swapi.dev/api/starships/59/"
+  },
+  "https://swapi.dev/api/starships/64/": {
+    "name": "Naboo star skiff",
+    "model": "J-type star skiff",
+    "manufacturer": "Theed Palace Space Vessel Engineering Corps/Nubia Star Drives, Incorporated",
+    "cost_in_credits": "unknown",
+    "length": "29.2",
+    "max_atmosphering_speed": "1050",
+    "crew": "3",
+    "passengers": "3",
+    "cargo_capacity": "unknown",
+    "consumables": "unknown",
+    "hyperdrive_rating": "0.5",
+    "MGLT": "unknown",
+    "starship_class": "yacht",
+    "pilots": [
+      "https://swapi.dev/api/people/10/",
+      "https://swapi.dev/api/people/35/"
+    ],
+    "films": [
+      "https://swapi.dev/api/films/6/"
+    ],
+    "created": "2014-12-20T19:55:15.396000Z",
+    "edited": "2014-12-20T21:23:49.948000Z",
+    "url": "https://swapi.dev/api/starships/64/"
+  },
+  "https://swapi.dev/api/starships/65/": {
+    "name": "Jedi Interceptor",
+    "model": "Eta-2 Actis-class light interceptor",
+    "manufacturer": "Kuat Systems Engineering",
+    "cost_in_credits": "320000",
+    "length": "5.47",
+    "max_atmosphering_speed": "1500",
+    "crew": "1",
+    "passengers": "0",
+    "cargo_capacity": "60",
+    "consumables": "2 days",
+    "hyperdrive_rating": "1.0",
+    "MGLT": "unknown",
+    "starship_class": "starfighter",
+    "pilots": [
+      "https://swapi.dev/api/people/10/",
+      "https://swapi.dev/api/people/11/"
+    ],
+    "films": [
+      "https://swapi.dev/api/films/6/"
+    ],
+    "created": "2014-12-20T19:56:57.468000Z",
+    "edited": "2014-12-20T21:23:49.951000Z",
+    "url": "https://swapi.dev/api/starships/65/"
+  },
+  "https://swapi.dev/api/starships/74/": {
+    "name": "Belbullab-22 starfighter",
+    "model": "Belbullab-22 starfighter",
+    "manufacturer": "Feethan Ottraw Scalable Assemblies",
+    "cost_in_credits": "168000",
+    "length": "6.71",
+    "max_atmosphering_speed": "1100",
+    "crew": "1",
+    "passengers": "0",
+    "cargo_capacity": "140",
+    "consumables": "7 days",
+    "hyperdrive_rating": "6",
+    "MGLT": "unknown",
+    "starship_class": "starfighter",
+    "pilots": [
+      "https://swapi.dev/api/people/10/",
+      "https://swapi.dev/api/people/79/"
+    ],
+    "films": [
+      "https://swapi.dev/api/films/6/"
+    ],
+    "created": "2014-12-20T20:38:05.031000Z",
+    "edited": "2014-12-20T21:23:49.959000Z",
+    "url": "https://swapi.dev/api/starships/74/"
+  },
+  "https://swapi.dev/api/starships/12/": {
+    "name": "X-wing",
+    "model": "T-65 X-wing",
+    "manufacturer": "Incom Corporation",
+    "cost_in_credits": "149999",
+    "length": "12.5",
+    "max_atmosphering_speed": "1050",
+    "crew": "1",
+    "passengers": "0",
+    "cargo_capacity": "110",
+    "consumables": "1 week",
+    "hyperdrive_rating": "1.0",
+    "MGLT": "100",
+    "starship_class": "Starfighter",
+    "pilots": [
+      "https://swapi.dev/api/people/1/",
+      "https://swapi.dev/api/people/9/",
+      "https://swapi.dev/api/people/18/",
+      "https://swapi.dev/api/people/19/"
+    ],
+    "films": [
+      "https://swapi.dev/api/films/1/",
+      "https://swapi.dev/api/films/2/",
+      "https://swapi.dev/api/films/3/"
+    ],
+    "created": "2014-12-12T11:19:05.340000Z",
+    "edited": "2014-12-20T21:23:49.886000Z",
+    "url": "https://swapi.dev/api/starships/12/"
+  },
+  "https://swapi.dev/api/starships/13/": {
+    "name": "TIE Advanced x1",
+    "model": "Twin Ion Engine Advanced x1",
+    "manufacturer": "Sienar Fleet Systems",
+    "cost_in_credits": "unknown",
+    "length": "9.2",
+    "max_atmosphering_speed": "1200",
+    "crew": "1",
+    "passengers": "0",
+    "cargo_capacity": "150",
+    "consumables": "5 days",
+    "hyperdrive_rating": "1.0",
+    "MGLT": "105",
+    "starship_class": "Starfighter",
+    "pilots": [
+      "https://swapi.dev/api/people/4/"
+    ],
+    "films": [
+      "https://swapi.dev/api/films/1/"
+    ],
+    "created": "2014-12-12T11:21:32.991000Z",
+    "edited": "2014-12-20T21:23:49.889000Z",
+    "url": "https://swapi.dev/api/starships/13/"
+  }
+}
