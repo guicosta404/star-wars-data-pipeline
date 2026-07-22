@@ -8,7 +8,7 @@ Camada bronze:
 
 import os
 import json
-from datetime import datetime
+from datetime import datetime, timezone
 
 import pandas as pd
 import requests
@@ -28,7 +28,7 @@ def ensure_dirs():
 
 
 # -----------------------------
-# Metadados de ingestão
+# Metadados de ingestão da planilha
 # -----------------------------
 def add_ingestion_metadata(df: pd.DataFrame, source_name: str) -> pd.DataFrame:
     """
@@ -36,7 +36,7 @@ def add_ingestion_metadata(df: pd.DataFrame, source_name: str) -> pd.DataFrame:
     - ingestion_source: nome da origem
     - ingestion_timestamp: timestamp UTC da ingestão
     """
-    now = datetime.utcnow().isoformat()
+    now = now = datetime.now(timezone.utc).isoformat()
     df["ingestion_source"] = source_name
     df["ingestion_timestamp"] = now
     return df
@@ -79,9 +79,8 @@ def fetch_swapi_people_by_name(name: str):
     """
     url = f"{SWAPI_BASE}/people/?search={name}"
     resp = requests.get(url, timeout=10)
-    #print(resp.json()['results'][0]['name'][:4])
-    #Se a resposta for vazia (Não encontrado), tente buscar só a primeira parte do nome, primeiras 4 caracteres e checa se o nome bate
-    #Se o inicio do nome nao for igual, ele ignora e dá como não encontrado.
+    #Se a resposta for vazia (Não encontrado), tenta buscar só a primeira parte do nome, primeiras 4 caracteres e checa se o nome bate
+    #Se o inicio do nome não for igual ignora e dá como não encontrado.
     if len(resp.json().get("results")) == 0:
         url = f"{SWAPI_BASE}/people/?search={name[:4]}"
         resp1 = requests.get(url, timeout=10)
@@ -118,7 +117,7 @@ def ingest_swapi():
     species_data = {}
     films_data = {}
     starships_data = {}
-    now = datetime.utcnow().isoformat()
+    now = now = datetime.now(timezone.utc).isoformat()
 
     for nome in nomes_unicos:
         result = fetch_swapi_people_by_name(nome)
