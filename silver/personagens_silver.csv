@@ -1,21 +1,21 @@
 id,nome_personagem,solicitado_por,prioridade,observacao,ingestion_source,ingestion_timestamp,nome_personagem_original,nome_personagem_norm
-1,Boba Fett,Márcia Nuñez,1,confirmar com o cliente,personagens_solicitados.csv,2026-07-22T15:32:18.501285+00:00,Boba Fett,boba fett
-2,Han Solo,,3,confirmar com o cliente,personagens_solicitados.csv,2026-07-22T15:32:18.501285+00:00,Han Solo,han solo
-3,Palpatine,Ana Souza,3,,personagens_solicitados.csv,2026-07-22T15:32:18.501285+00:00,Palpatine,palpatine
-4,C-3PO,,2.0,urgente,personagens_solicitados.csv,2026-07-22T15:32:18.501285+00:00,C-3PO,c3po
-5,Rey Skywalker,time de análise,2,urgente,personagens_solicitados.csv,2026-07-22T15:32:18.501285+00:00,Rey Skywalker,rey skywalker
-7,Leia Organa,,1,confirmar com o cliente,personagens_solicitados.csv,2026-07-22T15:32:18.501285+00:00,Leia Organa,leia organa
-8,R2-D2,,três,revisar depois,personagens_solicitados.csv,2026-07-22T15:32:18.501285+00:00,R2-D2,r2d2
-9,Chewbacca,Ana Souza,2,urgente,personagens_solicitados.csv,2026-07-22T15:32:18.501285+00:00,Chewbacca,chewbacca
-10,Obi-Wan Kenobi,João Pereira,1,confirmar com o cliente,personagens_solicitados.csv,2026-07-22T15:32:18.501285+00:00,Obi-Wan Kenobi,obiwan kenobi
-11,Han Sollo,Ana Souza,2,revisar depois,personagens_solicitados.csv,2026-07-22T15:32:18.501285+00:00,Han Sollo,han sollo
-12,Lando Calrissian,Ana Souza,3,,personagens_solicitados.csv,2026-07-22T15:32:18.501285+00:00,Lando Calrissian,lando calrissian
-13,Luke Skywalker,Márcia Nuñez,3,,personagens_solicitados.csv,2026-07-22T15:32:18.501285+00:00,Luke Skywalker,luke skywalker
-14,Chewbaca,Márcia Nuñez,3,revisar depois,personagens_solicitados.csv,2026-07-22T15:32:18.501285+00:00,Chewbaca,chewbaca
-15,Ahsoka Tano,Márcia Nuñez,3,confirmar com o cliente,personagens_solicitados.csv,2026-07-22T15:32:18.501285+00:00,Ahsoka Tano,ahsoka tano
-16,Yoda,João Pereira,alta,confirmar com o cliente,personagens_solicitados.csv,2026-07-22T15:32:18.501285+00:00,Yoda,yoda
-18,Din Djarin,João Pereira,3,nao é prioridade,personagens_solicitados.csv,2026-07-22T15:32:18.501285+00:00,Din Djarin,din djarin
-20,Grogu,time de análise,1,,personagens_solicitados.csv,2026-07-22T15:32:18.501285+00:00,Grogu,grogu
-22,Leia Organna,João Pereira,2,confirmar com o cliente,personagens_solicitados.csv,2026-07-22T15:32:18.501285+00:00,Leia Organna,leia organna
-26,Dart Vader,Ana Souza,1,revisar depois,personagens_solicitados.csv,2026-07-22T15:32:18.501285+00:00,Dart Vader,dart vader
-32,Darth Vader,,1,nao é prioridade,personagens_solicitados.csv,2026-07-22T15:32:18.501285+00:00,Darth Vader,darth vader
+1,Boba Fett,Márcia Nuñez,1,confirmar com o cliente,personagens_solicitados.csv,2026-07-22T15:53:12.621709+00:00,Boba Fett,boba fett
+2,Han Solo,,3,confirmar com o cliente,personagens_solicitados.csv,2026-07-22T15:53:12.621709+00:00,Han Solo,han solo
+3,Palpatine,Ana Souza,3,,personagens_solicitados.csv,2026-07-22T15:53:12.621709+00:00,Palpatine,palpatine
+4,C-3PO,,2.0,urgente,personagens_solicitados.csv,2026-07-22T15:53:12.621709+00:00,C-3PO,c3po
+5,Rey Skywalker,time de análise,2,urgente,personagens_solicitados.csv,2026-07-22T15:53:12.621709+00:00,Rey Skywalker,rey skywalker
+7,Leia Organa,,1,confirmar com o cliente,personagens_solicitados.csv,2026-07-22T15:53:12.621709+00:00,Leia Organa,leia organa
+8,R2-D2,,três,revisar depois,personagens_solicitados.csv,2026-07-22T15:53:12.621709+00:00,R2-D2,r2d2
+9,Chewbacca,Ana Souza,2,urgente,personagens_solicitados.csv,2026-07-22T15:53:12.621709+00:00,Chewbacca,chewbacca
+10,Obi-Wan Kenobi,João Pereira,1,confirmar com o cliente,personagens_solicitados.csv,2026-07-22T15:53:12.621709+00:00,Obi-Wan Kenobi,obiwan kenobi
+11,Han Sollo,Ana Souza,2,revisar depois,personagens_solicitados.csv,2026-07-22T15:53:12.621709+00:00,Han Sollo,han sollo
+12,Lando Calrissian,Ana Souza,3,,personagens_solicitados.csv,2026-07-22T15:53:12.621709+00:00,Lando Calrissian,lando calrissian
+13,Luke Skywalker,Márcia Nuñez,3,,personagens_solicitados.csv,2026-07-22T15:53:12.621709+00:00,Luke Skywalker,luke skywalker
+14,Chewbaca,Márcia Nuñez,3,revisar depois,personagens_solicitados.csv,2026-07-22T15:53:12.621709+00:00,Chewbaca,chewbaca
+15,Ahsoka Tano,Márcia Nuñez,3,confirmar com o cliente,personagens_solicitados.csv,2026-07-22T15:53:12.621709+00:00,Ahsoka Tano,ahsoka tano
+16,Yoda,João Pereira,alta,confirmar com o cliente,personagens_solicitados.csv,2026-07-22T15:53:12.621709+00:00,Yoda,yoda
+18,Din Djarin,João Pereira,3,nao é prioridade,personagens_solicitados.csv,2026-07-22T15:53:12.621709+00:00,Din Djarin,din djarin
+20,Grogu,time de análise,1,,personagens_solicitados.csv,2026-07-22T15:53:12.621709+00:00,Grogu,grogu
+22,Leia Organna,João Pereira,2,confirmar com o cliente,personagens_solicitados.csv,2026-07-22T15:53:12.621709+00:00,Leia Organna,leia organna
+26,Dart Vader,Ana Souza,1,revisar depois,personagens_solicitados.csv,2026-07-22T15:53:12.621709+00:00,Dart Vader,dart vader
+32,Darth Vader,,1,nao é prioridade,personagens_solicitados.csv,2026-07-22T15:53:12.621709+00:00,Darth Vader,darth vader
