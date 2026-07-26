@@ -86,6 +86,14 @@ def clean_vendas(vendas: pd.DataFrame) -> pd.DataFrame:
 
     df["nome_personagem_original"] = df["nome_personagem"]
     df["nome_personagem_norm"] = df["nome_personagem"].astype(str).map(normalize_name)
+    df = df.drop_duplicates(subset=[
+            "nome_personagem_original",
+            "nome_personagem_norm",
+            "produto",
+            "unidades_vendidas",
+            "receita_reais",
+            "mes_referencia"
+            ])
 
     # unidades_vendidas: tratar texto "cem" e nulos
     def parse_unidades(value):

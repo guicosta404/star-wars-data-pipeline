@@ -1,21 +1,19 @@
 id,nome_personagem,produto,unidades_vendidas,receita_reais,mes_referencia,ingestion_source,ingestion_timestamp,nome_personagem_original,nome_personagem_norm
-1,Luke Skywalker,Poster,100,1234.56,2026-01-01,vendas_produtos.csv,2026-07-22T15:53:12.621709+00:00,Luke Skywalker,luke skywalker
-2,R2-D2,Boneco de Pelúcia,26,900.74,2026-01-01,vendas_produtos.csv,2026-07-22T15:53:12.621709+00:00,R2-D2,r2d2
-3,Luke Skywalker,Poster,100,1234.56,2026-01-01,vendas_produtos.csv,2026-07-22T15:53:12.621709+00:00,Luke Skywalker,luke skywalker
-4,Lando Calrissian,Caneca,94,4832.85,2026-03-01,vendas_produtos.csv,2026-07-22T15:53:12.621709+00:00,Lando Calrissian,lando calrissian
-5,Yoda,Réplica de Sabre de Luz,139,2727.73,2026-01-01,vendas_produtos.csv,2026-07-22T15:53:12.621709+00:00,Yoda,yoda
-6,Han Solo,Boneco de Pelúcia,110,1943.07,2026-01-01,vendas_produtos.csv,2026-07-22T15:53:12.621709+00:00,Han Solo,han solo
-7,Han  Solo,Boneco de Pelúcia,0,,2026-02-01,vendas_produtos.csv,2026-07-22T15:53:12.621709+00:00,Han  Solo,han solo
-8,C-3PO,Poster,25,1857.37,2026-02-01,vendas_produtos.csv,2026-07-22T15:53:12.621709+00:00,C-3PO,c3po
-9,Leia Organa,Action Figure,126,4581.77,2026-01-01,vendas_produtos.csv,2026-07-22T15:53:12.621709+00:00,Leia Organa,leia organa
-10,Darth Vader,Action Figure,80,0.0,2026-01-01,vendas_produtos.csv,2026-07-22T15:53:12.621709+00:00,Darth Vader,darth vader
-11,Yoda,Réplica de Sabre de Luz,42,2100.0,,vendas_produtos.csv,2026-07-22T15:53:12.621709+00:00,Yoda,yoda
-12,Luke Skywalker,Action Figure,83,1679.59,2026-02-01,vendas_produtos.csv,2026-07-22T15:53:12.621709+00:00,Luke Skywalker,luke skywalker
-13,Kylo Ren,Action Figure,15,675.0,2026-03-01,vendas_produtos.csv,2026-07-22T15:53:12.621709+00:00,Kylo Ren,kylo ren
-14,Boba Fett,Action Figure,143,1344.74,2026-03-01,vendas_produtos.csv,2026-07-22T15:53:12.621709+00:00,Boba Fett,boba fett
-15,Luke Skywalker,Action Figure,83,1679.59,2026-02-01,vendas_produtos.csv,2026-07-22T15:53:12.621709+00:00,Luke Skywalker,luke skywalker
-16,Palpatine,Action Figure,34,4247.82,2026-03-01,vendas_produtos.csv,2026-07-22T15:53:12.621709+00:00,Palpatine,palpatine
-17,Darth Vader,Réplica de Sabre de Luz,120,3550.79,2026-03-01,vendas_produtos.csv,2026-07-22T15:53:12.621709+00:00,Darth Vader,darth vader
-18,Chewbacca,Action Figure,106,1757.12,2026-01-01,vendas_produtos.csv,2026-07-22T15:53:12.621709+00:00,Chewbacca,chewbacca
-19,Obi-Wan Kenobi,Réplica de Sabre de Luz,136,1554.98,2026-02-01,vendas_produtos.csv,2026-07-22T15:53:12.621709+00:00,Obi-Wan Kenobi,obiwan kenobi
-20,leia organa,Caneca,5,890.5,2026-01-01,vendas_produtos.csv,2026-07-22T15:53:12.621709+00:00,leia organa,leia organa
+1,Luke Skywalker,Poster,100,1234.56,2026-01-01,vendas_produtos.csv,2026-07-26T02:51:33.097410+00:00,Luke Skywalker,luke skywalker
+2,R2-D2,Boneco de Pelúcia,26,900.74,2026-01-01,vendas_produtos.csv,2026-07-26T02:51:33.097410+00:00,R2-D2,r2d2
+4,Lando Calrissian,Caneca,94,4832.85,2026-03-01,vendas_produtos.csv,2026-07-26T02:51:33.097410+00:00,Lando Calrissian,lando calrissian
+5,Yoda,Réplica de Sabre de Luz,139,2727.73,2026-01-01,vendas_produtos.csv,2026-07-26T02:51:33.097410+00:00,Yoda,yoda
+6,Han Solo,Boneco de Pelúcia,110,1943.07,2026-01-01,vendas_produtos.csv,2026-07-26T02:51:33.097410+00:00,Han Solo,han solo
+7,Han  Solo,Boneco de Pelúcia,0,,2026-02-01,vendas_produtos.csv,2026-07-26T02:51:33.097410+00:00,Han  Solo,han solo
+8,C-3PO,Poster,25,1857.37,2026-02-01,vendas_produtos.csv,2026-07-26T02:51:33.097410+00:00,C-3PO,c3po
+9,Leia Organa,Action Figure,126,4581.77,2026-01-01,vendas_produtos.csv,2026-07-26T02:51:33.097410+00:00,Leia Organa,leia organa
+10,Darth Vader,Action Figure,80,0.0,2026-01-01,vendas_produtos.csv,2026-07-26T02:51:33.097410+00:00,Darth Vader,darth vader
+11,Yoda,Réplica de Sabre de Luz,42,2100.0,,vendas_produtos.csv,2026-07-26T02:51:33.097410+00:00,Yoda,yoda
+12,Luke Skywalker,Action Figure,83,1679.59,2026-02-01,vendas_produtos.csv,2026-07-26T02:51:33.097410+00:00,Luke Skywalker,luke skywalker
+13,Kylo Ren,Action Figure,15,675.0,2026-03-01,vendas_produtos.csv,2026-07-26T02:51:33.097410+00:00,Kylo Ren,kylo ren
+14,Boba Fett,Action Figure,143,1344.74,2026-03-01,vendas_produtos.csv,2026-07-26T02:51:33.097410+00:00,Boba Fett,boba fett
+16,Palpatine,Action Figure,34,4247.82,2026-03-01,vendas_produtos.csv,2026-07-26T02:51:33.097410+00:00,Palpatine,palpatine
+17,Darth Vader,Réplica de Sabre de Luz,120,3550.79,2026-03-01,vendas_produtos.csv,2026-07-26T02:51:33.097410+00:00,Darth Vader,darth vader
+18,Chewbacca,Action Figure,106,1757.12,2026-01-01,vendas_produtos.csv,2026-07-26T02:51:33.097410+00:00,Chewbacca,chewbacca
+19,Obi-Wan Kenobi,Réplica de Sabre de Luz,136,1554.98,2026-02-01,vendas_produtos.csv,2026-07-26T02:51:33.097410+00:00,Obi-Wan Kenobi,obiwan kenobi
+20,leia organa,Caneca,5,890.5,2026-01-01,vendas_produtos.csv,2026-07-26T02:51:33.097410+00:00,leia organa,leia organa
