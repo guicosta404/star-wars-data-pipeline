@@ -210,9 +210,6 @@ def build_swapi_people_table(people_raw, planets_raw, species_raw, films_raw, st
     df = pd.DataFrame(rows)
     df_nao_encontrados = pd.DataFrame(nao_encontrados)
 
-    return df, df_nao_encontrados
-
-
     # conversão de tipos numéricos
     df["altura"] = pd.to_numeric(df["altura"], errors="coerce")
     df["massa"] = pd.to_numeric(df["massa"], errors="coerce")

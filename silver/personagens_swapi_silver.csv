@@ -1,13 +1,13 @@
 nome_personagem_swapi,nome_personagem_original,nome_personagem_norm,altura,massa,genero,planeta_natal,especie,quantidade_filmes,quantidade_naves
 Boba Fett,Boba Fett,boba fett,183,78.2,male,Kamino,N/I,3,1
-Han Solo,Han Solo,han solo,180,80,male,Corellia,N/I,3,2
-Palpatine,Palpatine,palpatine,170,75,male,Naboo,N/I,5,0
-C-3PO,C-3PO,c3po,167,75,n/a,Tatooine,Droid,6,0
-Leia Organa,Leia Organa,leia organa,150,49,female,Alderaan,N/I,4,0
-R2-D2,R2-D2,r2d2,96,32,n/a,Naboo,Droid,6,0
-Chewbacca,Chewbacca,chewbacca,228,112,male,Kashyyyk,Wookie,4,2
-Obi-Wan Kenobi,Obi-Wan Kenobi,obiwan kenobi,182,77,male,Stewjon,N/I,6,5
-Lando Calrissian,Lando Calrissian,lando calrissian,177,79,male,Socorro,N/I,2,1
-Luke Skywalker,Luke Skywalker,luke skywalker,172,77,male,Tatooine,N/I,4,2
-Yoda,Yoda,yoda,66,17,male,unknown,Yoda's species,5,0
-Darth Vader,Dart Vader,darth vader,202,136,male,Tatooine,N/I,4,1
+Han Solo,Han Solo,han solo,180,80.0,male,Corellia,N/I,3,2
+Palpatine,Palpatine,palpatine,170,75.0,male,Naboo,N/I,5,0
+C-3PO,C-3PO,c3po,167,75.0,n/a,Tatooine,Droid,6,0
+Leia Organa,Leia Organa,leia organa,150,49.0,female,Alderaan,N/I,4,0
+R2-D2,R2-D2,r2d2,96,32.0,n/a,Naboo,Droid,6,0
+Chewbacca,Chewbacca,chewbacca,228,112.0,male,Kashyyyk,Wookie,4,2
+Obi-Wan Kenobi,Obi-Wan Kenobi,obiwan kenobi,182,77.0,male,Stewjon,N/I,6,5
+Lando Calrissian,Lando Calrissian,lando calrissian,177,79.0,male,Socorro,N/I,2,1
+Luke Skywalker,Luke Skywalker,luke skywalker,172,77.0,male,Tatooine,N/I,4,2
+Yoda,Yoda,yoda,66,17.0,male,unknown,Yoda's species,5,0
+Darth Vader,Dart Vader,darth vader,202,136.0,male,Tatooine,N/I,4,1
