@@ -7,7 +7,7 @@ id,nome_personagem,produto,unidades_vendidas,receita_reais,mes_referencia,ingest
 7,Han  Solo,Boneco de Pelúcia,0,,2026-02-01,vendas_produtos.csv,2026-07-26T02:51:33.097410+00:00,Han  Solo,han solo
 8,C-3PO,Poster,25,1857.37,2026-02-01,vendas_produtos.csv,2026-07-26T02:51:33.097410+00:00,C-3PO,c3po
 9,Leia Organa,Action Figure,126,4581.77,2026-01-01,vendas_produtos.csv,2026-07-26T02:51:33.097410+00:00,Leia Organa,leia organa
-10,Darth Vader,Action Figure,80,0.0,2026-01-01,vendas_produtos.csv,2026-07-26T02:51:33.097410+00:00,Darth Vader,darth vader
+10,Darth Vader,Action Figure,80,3456.0,2026-01-01,vendas_produtos.csv,2026-07-26T02:51:33.097410+00:00,Darth Vader,darth vader
 11,Yoda,Réplica de Sabre de Luz,42,2100.0,,vendas_produtos.csv,2026-07-26T02:51:33.097410+00:00,Yoda,yoda
 12,Luke Skywalker,Action Figure,83,1679.59,2026-02-01,vendas_produtos.csv,2026-07-26T02:51:33.097410+00:00,Luke Skywalker,luke skywalker
 13,Kylo Ren,Action Figure,15,675.0,2026-03-01,vendas_produtos.csv,2026-07-26T02:51:33.097410+00:00,Kylo Ren,kylo ren

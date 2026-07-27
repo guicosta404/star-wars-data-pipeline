@@ -57,7 +57,9 @@ def normalize_money(value):
     - "1234"
     - "$ 1234.56"
 
-    Regra: se houver apenas um separador (., ou ,), ele é o separador decimal.
+    Regras:
+    - se houver ponto e vírgula, o ponto é separador de milhar e a vírgula é decimal
+    - se houver apenas um separador (., ou ,), ele é o separador decimal
     """
     if value is None:
         return 0.0
@@ -76,8 +78,11 @@ def normalize_money(value):
     # remove hifen -
     s = s.replace("-", "")
 
+    # ponto separa milhar e vírgula separa decimais
+    if "." in s and "," in s:
+        s = s.replace(".", "").replace(",", ".")
     # se tiver vírgula e não tiver ponto -> vírgula é decimal
-    if "," in s and "." not in s:
+    elif "," in s and "." not in s:
         s = s.replace(",", ".")
     # se tiver ponto e não tiver vírgula -> ponto é decimal (mantém)
     elif "." in s and "," not in s:
