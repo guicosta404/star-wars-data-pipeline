@@ -194,6 +194,13 @@ def build_swapi_people_table(people_raw, planets_raw, species_raw, films_raw, st
         films_count = len(set(person.get("films", [])))
         starships_count = len(set(person.get("starships", [])))
 
+        # FEAT - adicionado coluna de quantidade de solicitações internas por personagem.
+        qtd_sol = 0
+        for nome_original_bronze in personagens_raw["nome_personagem"]:
+            print(normalize_name(nome_original_bronze)[:4])
+            if normalize_name(nome_swapi)[:4] == normalize_name(nome_original_bronze)[:4]:
+                qtd_sol += 1
+
         rows.append({
             "nome_personagem_swapi": nome_swapi,
             "nome_personagem_original": original_name,
@@ -205,6 +212,7 @@ def build_swapi_people_table(people_raw, planets_raw, species_raw, films_raw, st
             "especie": specie,
             "quantidade_filmes": films_count,
             "quantidade_naves": starships_count,
+            "quantidade_solicitacoes": qtd_sol
         })
 
     df = pd.DataFrame(rows)

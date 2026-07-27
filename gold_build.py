@@ -39,6 +39,7 @@ if __name__ == "__main__":
             "massa": "massa_kg",
             "quantidade_filmes": "qtd_filmes",
             "quantidade_naves": "qtd_naves_distintas",
+            "quantidade_solicitacoes": "qtd_solicitacoes",
             "unidades_vendidas": "unidades_vendidas_total",
             "receita_reais": "receita_total_reais",
         })
@@ -49,6 +50,7 @@ if __name__ == "__main__":
     df_gold["massa_kg"] = pd.to_numeric(df_gold["massa_kg"], errors="coerce")
     df_gold["qtd_filmes"] = df_gold["qtd_filmes"].astype(int)
     df_gold["qtd_naves_distintas"] = df_gold["qtd_naves_distintas"].astype(int)
+    df_gold["qtd_solicitacoes"] = df_gold["qtd_solicitacoes"].astype(int)
     df_gold["unidades_vendidas_total"] = df_gold["unidades_vendidas_total"].astype(int)
     df_gold["receita_total_reais"] = df_gold["receita_total_reais"].astype(float)
     
