@@ -11,6 +11,26 @@ import re
 import pandas as pd
 
 
+def normalize_gender(value) -> str:
+    """
+    Padroniza valores de gênero ausentes como "N/I".
+
+    A SWAPI usa "n/a" para alguns personagens. Esse valor é interpretado
+    pelo pandas como nulo ao reler um CSV, por isso ele também é tratado
+    explicitamente como informação não identificada.
+    """
+    if pd.isna(value):
+        return "N/I"
+
+    gender = str(value).strip()
+    missing_values = {"", "n/a", "na", "none", "null", "nan", "unknown"}
+
+    if gender.casefold() in missing_values:
+        return "N/I"
+
+    return gender
+
+
 # -----------------------------
 # Normalização de nomes
 # -----------------------------

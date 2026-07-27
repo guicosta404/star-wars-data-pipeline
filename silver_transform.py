@@ -12,7 +12,7 @@ import os
 import json
 import pandas as pd
 
-from utils import normalize_name, normalize_money, normalize_month_year
+from utils import normalize_gender, normalize_name, normalize_money, normalize_month_year
 
 BRONZE_DIR = "bronze"
 SILVER_DIR = "silver"
@@ -197,7 +197,6 @@ def build_swapi_people_table(people_raw, planets_raw, species_raw, films_raw, st
         # FEAT - adicionado coluna de quantidade de solicitações internas por personagem.
         qtd_sol = 0
         for nome_original_bronze in personagens_raw["nome_personagem"]:
-            print(normalize_name(nome_original_bronze)[:4])
             if normalize_name(nome_swapi)[:4] == normalize_name(nome_original_bronze)[:4]:
                 qtd_sol += 1
 
@@ -207,7 +206,7 @@ def build_swapi_people_table(people_raw, planets_raw, species_raw, films_raw, st
             "nome_personagem_norm": normalize_name(nome_swapi),
             "altura": person.get("height"),
             "massa": person.get("mass"),
-            "genero": person.get("gender"),
+            "genero": normalize_gender(person.get("gender")),
             "planeta_natal": homeworld_name,
             "especie": specie,
             "quantidade_filmes": films_count,

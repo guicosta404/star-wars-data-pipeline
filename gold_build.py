@@ -11,6 +11,8 @@ Camada gold:
 import os
 import pandas as pd
 
+from utils import normalize_gender
+
 SILVER_DIR = "silver"
 GOLD_DIR = "gold"
 
@@ -53,6 +55,7 @@ if __name__ == "__main__":
     df_gold["qtd_solicitacoes"] = df_gold["qtd_solicitacoes"].astype(int)
     df_gold["unidades_vendidas_total"] = df_gold["unidades_vendidas_total"].astype(int)
     df_gold["receita_total_reais"] = df_gold["receita_total_reais"].astype(float)
+    df_gold["genero"] = df_gold["genero"].map(normalize_gender)
     
     # tabela principal gold
     df_gold.to_csv(os.path.join(GOLD_DIR, "personagens_dashboard_gold.csv"), index=False)
